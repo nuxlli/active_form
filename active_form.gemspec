@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name    = 'activeform'
+  s.name    = 'active_form'
   s.version = '1.0.0'
   s.date    = '2008-09-08'
   
@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   
   s.authors  = ['Christoph Schiessl']
   s.email    = 'c.schiessl@gmx.net'
-  s.homepage = 'http://github.com/cs/activeform'
+  s.homepage = 'http://github.com/cs/active_form'
   
   s.has_rdoc = false
   s.add_dependency 'activerecord', ['>= 2.1.0']
