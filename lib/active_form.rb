@@ -47,6 +47,14 @@ class ActiveForm
   alias update_attributes raise_not_implemented_error
   
   class <<self
+    def self_and_descendents_from_active_record
+      [self]
+    end
+
+    def human_name(*args)
+      name.humanize
+    end
+
     def human_attribute_name(attribute_key_name)
       attribute_key_name.humanize
     end
