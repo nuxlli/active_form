@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name    = 'active_form'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.date    = '2008-09-08'
   
   s.summary = "Validations for Non Active Record Models"
