@@ -47,7 +47,7 @@ class ActiveForm
   alias update_attributes raise_not_implemented_error
   
   class <<self
-    def self_and_descendents_from_active_record
+    def self_and_descendants_from_active_record
       [self]
     end
 
